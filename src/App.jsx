@@ -33,7 +33,7 @@ function App() {
   const [maxTemp, setMaxTemp] = useState(0);
 
 
-  const APIKey = "691f190f6fda6735c93fe90163a8c06f";
+  const APIKey = "";
 
   const foreCastSet = (data) => {
     setforeCastData(data);
