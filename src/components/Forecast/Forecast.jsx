@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useWeather } from "../../WeatherContext/WeatherContext";
 
 function Forecast() {
-    const APIKey = "";
+    const APIKey = "USE_YOUR_OWN_API_KEY";
 
     const { foreCastData, city, foreCastSet } = useWeather()
 
